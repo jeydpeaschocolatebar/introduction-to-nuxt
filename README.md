@@ -1,20 +1,42 @@
-# introduction-to-nuxt
+# Nuxt 3 Minimal Starter
 
-This is a small project for my self learning of nuxt framework.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Table of Contents
+## Setup
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Make sure to install the dependencies:
 
-## Features
+```bash
+# yarn
+yarn install
 
-List the features and functionalities of your project here.
+# npm
+npm install
 
-## Installation
+# pnpm
+pnpm install
+```
 
-Explain how to install your project and its dependencies. Include any necessary commands, installation steps, or prerequisites. For example:
+## Development Server
 
+Start the development server on http://localhost:3000
+
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
