@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-const { data } = await useFetch('/api/tanglad')
+const { data } = await useFetch('/api/currency/GBP')
 </script>
 
 <style scoped>
