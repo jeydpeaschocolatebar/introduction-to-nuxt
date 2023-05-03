@@ -8,10 +8,12 @@
             consequatur. Sapiente aspernatur voluptatibus voluptates sunt quis saepe libero expedita totam, illo ex,
             repudiandae blanditiis!</p>
 
+        <div>{{ data }}</div>
     </div>
 </template>
 
 <script setup>
+const { data } = await useFetch('/api/tanglad')
 </script>
 
 <style scoped>
