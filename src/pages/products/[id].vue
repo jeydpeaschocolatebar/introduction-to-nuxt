@@ -15,4 +15,9 @@ definePageMeta({
 })
 </script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+</style>
