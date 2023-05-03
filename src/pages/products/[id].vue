@@ -1,5 +1,12 @@
 <template>
     <div>
+        <!-- This sets the dynamic metadata on a specific pages -->
+
+        <Head>
+            <Title>Nuxt Tanglad Merch | {{ product.title }}</Title>
+            <Meta name="description" :content="product.description" />
+        </Head>
+
         <ProductDetails :product="product" />
     </div>
 </template>

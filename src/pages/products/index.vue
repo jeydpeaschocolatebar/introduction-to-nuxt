@@ -15,6 +15,17 @@ definePageMeta({
 
 // fetch the products
 const { data: products } = await useFetch('https://fakestoreapi.com/products')
+
+// This sets the page specific metadata
+useHead({
+    title: 'Tanglad Merch | Hello! Katanglad',
+    meta: [
+        {
+            name: 'description',
+            content: 'Our Tanglad Merch'
+        }
+    ]
+})
 </script>
 
 <style scoped>
